@@ -1,7 +1,7 @@
 # _*_ coding: utf-8 _*_
 from numpy import *
 from os import listdir
-from models.kNN101.kNN101 import classify0
+from kNN.kNN101.kNN101 import classify0
 
 
 def img2vector(filename):

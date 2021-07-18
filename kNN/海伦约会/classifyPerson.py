@@ -3,7 +3,7 @@ from numpy import *
 from matplotlib.font_manager import FontProperties
 import matplotlib.lines as mlines
 import matplotlib.pyplot as plt
-from models.kNN101.kNN101 import classify0
+from kNN.kNN101.kNN101 import classify0
 
 
 def file2matrix(filename):
